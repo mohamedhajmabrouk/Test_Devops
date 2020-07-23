@@ -22,7 +22,7 @@ services:
     networks:
       - mysql-webtv
     ports:
-      - "8022:80"
+      - "8032:80"
     depends_on:
       - mysql
     restart: always
